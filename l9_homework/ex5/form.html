@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid vh-100 ">
+
+        <header class="bg-dark-subtle text-center border border-black">
+            <h1>header</h1>
+        </header>
+
+
+        <div class="    container h-100 ">
+            <nav class="mx-auto navbar navbar-expand-lg bg-dark-subtle w-75">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">My Brand</a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="form.html">form</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="table.html">table</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="grid.html">grid</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">index</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class=" card h-100">
+
+                
+                <form>
+                    <label class="form-label" for="fname">first name</label>
+                    <input class="form-control mb-1" type="text" id="fname" name="fname" placeholder="first name">
+
+                    <label class="form-label" for="lname">last name</label>
+                    <input class="form-control mb-1" type="text" id="lname" name="lname" placeholder="last name">
+
+                    <p>how do you know us</p>
+
+                    <input type="radio" id="friend" name="know" value="friend">
+                    <label for="friend">friend</label>
+                    <br>
+                    <input type="radio" id="facebook" name="know" value="facebook">
+                    <label for="facebook">facebook</label>
+                    <br>
+                    <input type="radio" id="other" name="know" value="other">
+                    <label for="other">friend</label>
+                    <br>
+                    <br>
+                    <label class="form-label" for="pass">create a password</label>
+                    <input class="form-control" type="password" name="pass" id="pass" minlength="8" maxlength="20"
+                        required>
+                    <label class="form-label small mb-1" for="pass">must be 8-20 characters</label>
+
+                    <br>
+                    <label class="form-label" for="search">choose a question to reset your password:</label>
+                    <input class="form-control mb-1" type="text" list="questions" id="search"
+                        placeholder="choose a question">
+                    <datalist id="questions">
+                        <option value="option1">option1</option>
+                        <option value="option2">option2</option>
+                        <option value="mothers_name">whats your mothers name</option>
+                        <option value="first_pet_name">first pet name</option>
+                    </datalist>
+                    <label class="form-label" for="response">response</label>
+                    <input class="form-control mb-1" type="email" id="response" name="response" placeholder="response">
+
+                    <label class="form-label" for="email">email</label>
+                    <input class="form-control mb-1" type="text" id="email" name="email" placeholder="email">
+                    <label class="form-label small mb-1" for="email">we will never share your email</label>
+
+                    <label class="form-label" for="pictures">Upload picture:</label>
+                    <input class="form-control mb-1" type="file" id="pictures" name="pictures">
+
+
+                    <input class=" mb-1" type="checkbox" id="agree" name="agree" required>
+                    <label class="form-label" for="agree">i agree</label>
+                    <br>
+                    <input class=" mb-1" type="checkbox" id="news" name="news">
+                    <label class="form-label" for="news">news</label>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+
+            </div>
+
+        </div>
+        <footer class="bg-dark-subtle text-center border border-black">
+            <h1>footer</h1>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
